@@ -20,8 +20,38 @@ throws关键字：异常处理的第一种方式，交给别人处理
   要么try...catch自己处理异常
  */
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
 public class Demo03throws {
+    /*
+    定义一个方法，对传递的文件路径进行合法性判断
+    如果路径不是xxxxx，那么我们就抛出文件找不到异常对象，告知方法的调用者
+     */
+    public static void main(String[] args) throws IOException {
+
+        readFile("d:\\a.txt");
+
+    }
+
+    public static void readFile(String fileName) throws IOException {
+
+        if(!fileName.endsWith(".txt")){
+
+            throw new IOException("文件的后缀名不对");
+
+        }
+
+        if(!fileName.equals("c:\\a.txt")){
+
+            throw new FileNotFoundException("传递的文件路径不是c:\\a.txt");
+
+        }
 
 
+
+        System.out.println("传递的路径正常，开始读取");
+
+    }
 
 }
