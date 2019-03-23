@@ -1,4 +1,4 @@
-package cn.gdlgxy.WXDemo02Object;
+package cn.gdlgxy.WXDemo2Object;
 
 public class Demo02StudentClass {//创建一个学生类
 

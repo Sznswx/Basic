@@ -1,4 +1,4 @@
-package cn.gdlgxy.WXDemo02Object;
+package cn.gdlgxy.WXDemo2Object;
 
 import java.util.Arrays;
 

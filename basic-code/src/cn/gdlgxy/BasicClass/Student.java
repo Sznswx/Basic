@@ -13,6 +13,10 @@ public class Student {//这是一个标准类
         this.age = age;
     }
 
+    public void mathod(){
+        System.out.println("学生类方法执行");
+    }
+
     public String getName() {
         return name;
     }

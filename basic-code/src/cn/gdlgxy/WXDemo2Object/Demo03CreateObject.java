@@ -1,4 +1,4 @@
-package cn.gdlgxy.WXDemo02Object;
+package cn.gdlgxy.WXDemo2Object;
 
 public class Demo03CreateObject {//调用Demo02创建的学生类
 

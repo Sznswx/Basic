@@ -1,4 +1,4 @@
-package cn.gdlgxy.WXDemo02Object;
+package cn.gdlgxy.WXDemo2Object;
 
 public class Demo05ClassTest {//测试 Demo04这个标准类
 

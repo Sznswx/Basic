@@ -1,4 +1,4 @@
-package cn.gdlgxy.WXDemo02Object;
+package cn.gdlgxy.WXDemo2Object;
 
 public class Demo04StandardClass {//标准类的构成
 
